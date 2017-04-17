@@ -9,3 +9,5 @@ tl;dr we need to break down an exponential into an "a = a + (a shift by n) forma
 
 calculating e(x) without multiplication
 https://www.quinapalus.com/efunc.html
+
+block diagram: https://www.mathworks.com/help/fixedpoint/ref/cordiccexp.html
