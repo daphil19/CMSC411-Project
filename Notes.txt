@@ -6,3 +6,6 @@ cosh(x) = (1 + exp(-2x))/ 2*exp(-x)
 
 Exponential overview (adapted from https://www.quinapalus.com/efunc.html)
 tl;dr we need to break down an exponential into an "a = a + (a shift by n) format
+
+calculating e(x) without multiplication
+https://www.quinapalus.com/efunc.html
