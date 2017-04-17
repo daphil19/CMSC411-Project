@@ -5,9 +5,19 @@ sinh(x) = (1 - exp(-2x))/ 2*exp(-x)
 cosh(x) = (1 + exp(-2x))/ 2*exp(-x)
 
 Exponential overview (adapted from https://www.quinapalus.com/efunc.html)
-tl;dr we need to break down an exponential into an "a = a + (a shift by n) format
+tl;dr we need to break down an exponential into "easy to multiply" format
 
-calculating e(x) without multiplication
-https://www.quinapalus.com/efunc.html
+y = exp(x) => y = exp(x) * exp(-x) = 1. From here, we can break down -x into 2 numbers: one of which being easy to multiply
+(product of 2).
+From here, a lookup table is used to multiply y by the easy number and subtract the remaining value from the x.
+
+i.e. say x = 4, y = 1 (NOTE I think y is always 1??)
+let k be a number such that exp(k) is "easy to multiply"
+
+From here we look for the biggest k value to subtract from x (found in lookup table).
+Then we multiply y by exp(k).
+
+Rinse and repeat until x < smallest k value. Note that a bigger lookup table results in more accuracy.
+
 
 block diagram: https://www.mathworks.com/help/fixedpoint/ref/cordiccexp.html
