@@ -5,19 +5,21 @@ sinh(x) = (1 - exp(-2x))/ 2*exp(-x)
 cosh(x) = (1 + exp(-2x))/ 2*exp(-x)
 
 Exponential overview (adapted from https://www.quinapalus.com/efunc.html)
-tl;dr we need to break down an exponential into "easy to multiply" format
+tl;dr we need to break down an exponential (e^x) into "easy to multiply" (e^a * e^b) format
 
-y = exp(x) => y = exp(x) * exp(-x) = 1. From here, we can break down -x into 2 numbers: one of which being easy to multiply
-(product of 2).
-From here, a lookup table is used to multiply y by the easy number and subtract the remaining value from the x.
-
-i.e. say x = 4, y = 1 (NOTE I think y is always 1??)
-let k be a number such that exp(k) is "easy to multiply"
-
-From here we look for the biggest k value to subtract from x (found in lookup table).
-Then we multiply y by exp(k).
-
-Rinse and repeat until x < smallest k value. Note that a bigger lookup table results in more accuracy.
-
+start with x value and y = 1. From here, we find the biggest power of 2 whose natural log is less than or equal to x.
+Multiply (really bit shift) y by power of 2 and subtract natural log of value from x.
+Rinse and repeat until we reach finest grain or 0
 
 block diagram: https://www.mathworks.com/help/fixedpoint/ref/cordiccexp.html
+
+
+Development and testing shall be done using Xilinx software.
+
+----Hierarchy Overview----
+There shall be 3 main modules at the top-level hierarchy:
+1. Memory (or registers) for the respective lookup tables
+2. Memory (or registers) for the input and output
+3. The CORDIC calculation module
+
+The CORDIC module shall contain a bit shifter, subtractor, registers to hold output and intermediary values, and multiplexed signal logic.
