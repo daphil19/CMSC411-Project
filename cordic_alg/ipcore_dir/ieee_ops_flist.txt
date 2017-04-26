@@ -1,0 +1,14 @@
+# Output products list for <ieee_ops>
+ieee_ops.asy
+ieee_ops.gise
+ieee_ops.ngc
+ieee_ops.sym
+ieee_ops.v
+ieee_ops.veo
+ieee_ops.xco
+ieee_ops.xise
+ieee_ops\doc\floating_point_ds335.pdf
+ieee_ops\doc\floating_point_v5_0_readme.txt
+ieee_ops\doc\floating_point_v5_0_vinfo.html
+ieee_ops_flist.txt
+ieee_ops_xmdf.tcl
