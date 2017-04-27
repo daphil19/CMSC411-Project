@@ -1,8 +1,8 @@
 Notes!
 
 sinh and cosh equations: https://en.wikipedia.org/wiki/Hyperbolic_function
-sinh(x) = (1 - exp(-2x))/ 2*exp(-x)
-cosh(x) = (1 + exp(-2x))/ 2*exp(-x)
+sinh(x) = (1 - exp(-2x))/ 2*exp(-x) = (e(x)-e(-x))/2
+cosh(x) = (1 + exp(-2x))/ 2*exp(-x) = (e(x) + e(-x))/2
 
 Exponential overview (adapted from https://www.quinapalus.com/efunc.html)
 tl;dr we need to break down an exponential (e^x) into "easy to multiply" (e^a * e^b) format
