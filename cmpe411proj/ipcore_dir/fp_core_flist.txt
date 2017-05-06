@@ -1,0 +1,15 @@
+# Output products list for <fp_core>
+_xmsgs\pn_parser.xmsgs
+fp_core.asy
+fp_core.gise
+fp_core.ngc
+fp_core.sym
+fp_core.v
+fp_core.veo
+fp_core.xco
+fp_core.xise
+fp_core\doc\floating_point_ds335.pdf
+fp_core\doc\floating_point_v5_0_readme.txt
+fp_core\doc\floating_point_v5_0_vinfo.html
+fp_core_flist.txt
+fp_core_xmdf.tcl

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="F:/411/cmpe411proj/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb/ADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_a[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_b[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_rst</obj_property>
+      <obj_property name="ObjectShortName">alu_rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_en</obj_property>
+      <obj_property name="ObjectShortName">alu_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_rdy</obj_property>
+      <obj_property name="ObjectShortName">alu_rdy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/alu_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_rst</obj_property>
+      <obj_property name="ObjectShortName">comp_rst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_en</obj_property>
+      <obj_property name="ObjectShortName">comp_en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_rdy</obj_property>
+      <obj_property name="ObjectShortName">comp_rdy</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/comp_result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_result[0:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_result[0:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/cont" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cont</obj_property>
+      <obj_property name="ObjectShortName">cont</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/BAD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">BAD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAD[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/newx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">newx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">newx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/x_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/y_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/ex_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ex_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
