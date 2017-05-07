@@ -1,0 +1,15 @@
+# Output products list for <fp_alu>
+_xmsgs\pn_parser.xmsgs
+fp_alu.asy
+fp_alu.gise
+fp_alu.ngc
+fp_alu.sym
+fp_alu.v
+fp_alu.veo
+fp_alu.xco
+fp_alu.xise
+fp_alu\doc\floating_point_ds335.pdf
+fp_alu\doc\floating_point_v5_0_readme.txt
+fp_alu\doc\floating_point_v5_0_vinfo.html
+fp_alu_flist.txt
+fp_alu_xmdf.tcl
